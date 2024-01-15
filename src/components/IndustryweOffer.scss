@@ -1,0 +1,66 @@
+.industryweOffer{
+    width: 100%;
+    height: 500px;
+    // background-color: aqua;
+    .industryweOfferTop {
+        width: 100%;
+        // background-color: yellow;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        
+    
+        p {
+            font-family: "Fira Sans", sans-serif;
+            font-size: 11px;
+            color: #1c57a9;
+            line-height: 21px;
+            letter-spacing: 2.8px;
+        }
+    
+        h2 {
+            font-family: Rubik, sans-serif;
+            font-size: 30px;
+            letter-spacing: normal;
+            line-height: 24px;
+            color: #003072;
+        }
+        span{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            color: rgb(92, 92, 92);
+            text-align: center;
+        }
+    }
+    .industryweOfferBottom{
+        width: 70%;
+        height: 350px;
+        margin: auto;
+        // background-color: red;   
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .card1{
+            width: 270px;
+            height: 230px;
+            background-color: #e3e7ec;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            i{
+                font-size: 50px;
+                color: #1c57a9;
+            }
+            p{
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                font-size: 20px;
+                line-height: 30px;
+                letter-spacing: normal;
+                font-weight: 500;
+            }
+        }
+    }
+}
